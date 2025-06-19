@@ -1,0 +1,81 @@
+body {
+    background-image: url(/imagens/fundocontato.jpg);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#pagina{
+    padding: 20px;
+}
+
+.cartao {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+#foto {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #00BFFF;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.nome {
+    margin: 10px 0 5px;
+    color: #00BFFF;
+}
+
+.subnome {
+    margin: 5px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+selection {
+    margin: 15px 0;
+    text-align: left;
+}
+
+section h2 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #00BFFF;
+}
+
+.contato {
+    margin: 5px 0;
+    color: #555;
+}
+
+#email {
+    font-style: italic;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+#botao-contato {
+    background-color: #00BFFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botao-contato:hover {
+    background-color: #00BFFF;
+}
